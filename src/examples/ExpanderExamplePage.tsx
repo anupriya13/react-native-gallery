@@ -70,18 +70,18 @@ export const ExpanderExamplePage: React.FunctionComponent<{}> = () => {
       ]}>
       <Example title="A simple Expander." code={example1jsx}>
         <Expander collapsedHeight={50} expandedHeight={125}>
-          <Text>Text in the header</Text>
+          <Text accessibilityRole="button">Text in the header</Text>
           <Text>Text in the content</Text>
         </Expander>
       </Example>
       <Example title="An Expander with multiple lines." code={example2jsx}>
         <Expander collapsedHeight={75} expandedHeight={200}>
           <View>
-            <Text>Text in the header</Text>
+            <Text accessibilityRole="button">Text in the header</Text>
             <Text>Second line of text in the header</Text>
           </View>
           <View>
-            <Text>Text in the content</Text>
+            <Text accessibilityRole="button">Text in the content</Text>
             <Text>Second line of text in the content</Text>
           </View>
         </Expander>
@@ -91,7 +91,7 @@ export const ExpanderExamplePage: React.FunctionComponent<{}> = () => {
           collapsedHeight={50}
           expandedHeight={125}
           expandDirection={'up'}>
-          <Text>Text in the header</Text>
+          <Text accessibilityRole="button">Text in the header</Text>
           <Text>Text in the content</Text>
         </Expander>
       </Example>
@@ -120,7 +120,8 @@ export const ExpanderExamplePage: React.FunctionComponent<{}> = () => {
               style={{
                 alignItems: 'center',
                 padding: 6,
-              }}>
+              }}
+              accessibilityRole="button">
               Click Me!
             </Text>
           </View>

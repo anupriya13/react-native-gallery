@@ -14,7 +14,7 @@ import {ScrollViewExamplePage} from '../src/examples/ScrollViewExample';
 import {PopupExamplePage} from '../src/examples/PopupExamplePage';
 import {FlyoutExamplePage} from '../src/examples/FlyoutExamplePage';
 import {CheckBoxExamplePage} from '../src/examples/CheckBoxExamplePage';
-import {ClipboardExamplePage} from '../src/examples/ClipboardExamplePage';
+//import {ClipboardExamplePage} from '../src/examples/ClipboardExamplePage';
 import {ConfigExamplePage} from '../src/examples/ConfigExamplePage';
 import {DatePickerExamplePage} from '../src/examples/DatePickerExamplePage';
 import {TimePickerExamplePage} from '../src/examples/TimePickerExamplePage';
@@ -70,13 +70,13 @@ test('CheckBox Example Page', async () => {
   expect(tree.toJSON()).toMatchSnapshot();
 });
 
-test('Clipboard Example Page', async () => {
-  let tree;
-  await act(async () => {
-    tree = create(<ClipboardExamplePage />);
-  });
-  expect(tree.toJSON()).toMatchSnapshot();
-});
+// test('Clipboard Example Page', async () => {
+//   let tree;
+//   await act(async () => {
+//     tree = create(<ClipboardExamplePage />);
+//   });
+//   expect(tree.toJSON()).toMatchSnapshot();
+// });
 
 test('Config Example Page', async () => {
   let tree;

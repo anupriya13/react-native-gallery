@@ -4,7 +4,7 @@
 #include "AutolinkedNativeModules.g.h"
 
 // Includes from @react-native-clipboard/clipboard
-#include <winrt/Clipboard.h>
+//#include <winrt/Clipboard.h>
 
 namespace winrt::Microsoft::ReactNative
 {
@@ -12,7 +12,7 @@ namespace winrt::Microsoft::ReactNative
 void RegisterAutolinkedNativeModulePackages(winrt::Windows::Foundation::Collections::IVector<winrt::Microsoft::ReactNative::IReactPackageProvider> const& packageProviders)
 { 
     // IReactPackageProviders from @react-native-clipboard/clipboard
-    packageProviders.Append(winrt::Clipboard::ReactPackageProvider());
+    //packageProviders.Append(winrt::Clipboard::ReactPackageProvider());
 }
 
 }

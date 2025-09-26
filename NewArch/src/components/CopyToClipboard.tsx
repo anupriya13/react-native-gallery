@@ -6,7 +6,7 @@ import {
   PlatformColor,
   Text,
 } from 'react-native';
-import Clipboard from '@react-native-clipboard/clipboard';
+//import Clipboard from '@react-native-clipboard/clipboard';
 
 const createButtonStyles = (isHovered: boolean, isPressing: boolean) =>
   StyleSheet.create({

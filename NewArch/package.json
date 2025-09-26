@@ -12,11 +12,10 @@
     "test:windows": "jest --config jest.config.windows.js"
   },
   "dependencies": {
-    "@react-native-clipboard/clipboard": "^1.16.1",
     "lowlight": "^1.17.0",
-    "react": "19.1.0",
-    "react-native": "^0.80.2",
-    "react-native-windows": "^0.80.0-preview.4"
+    "react": "19.0.0",
+    "react-native": "^0.80.0",
+    "react-native-windows": "0.0.0-canary.970"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
